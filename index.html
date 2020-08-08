@@ -28,7 +28,7 @@
         if (navigator.share) { 
         navigator.share(shareData)
           .then(() =>
-            resultPara.textContent = 'MDN shared successfully'
+            resultPara.textContent = 'shared successfully'
           )
           .catch((e) =>
             resultPara.textContent = 'Error: ' + e
