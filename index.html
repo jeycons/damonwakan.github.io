@@ -16,9 +16,9 @@
 
     <script>
       let shareData = {
-        title: '',
-        text: 'hllo world!',
-        url: document.URL,
+        title: 'jeyCons',
+        text: 'hello world!',
+        url: location.origin,
       }
 
       const btn = document.querySelector('button');
@@ -34,7 +34,7 @@
             resultPara.textContent = 'Error: ' + e
           )
         } else {
-          resultPara.textContent = `타이틀:${shareData.title} 텍스트: ${shareData.text} 주 소: ${shareData.url}`
+          // resultPara.textContent = `타이틀:${shareData.title} 텍스트: ${shareData.text} 주 소: ${shareData.url}`
         }
       });
     </script>
