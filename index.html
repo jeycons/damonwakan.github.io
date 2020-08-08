@@ -10,7 +10,7 @@
 <p><a href="https://github.com/" rel="nofollow" target="_blank">깃허브</a>로 만든 페이지</p>
 <p><a href="https://jeycons.github.io">JEYCONS</a></p>
   
-    <p><button>Share MDN!</button></p>
+    <p><button>Share</button></p>
 
     <p class="result"></p>
 
@@ -34,7 +34,7 @@
             resultPara.textContent = 'Error: ' + e
           )
         } else {
-          // resultPara.textContent = `타이틀:${shareData.title} 텍스트: ${shareData.text} 주 소: ${shareData.url}`
+           resultPara.textContent = `${shareData.title} - ${shareData.url}`
         }
       });
     </script>
