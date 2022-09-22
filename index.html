@@ -17,7 +17,18 @@
   <button id = "find-me">Show my location</button><br/>
 <p id = "status"></p>
 <a id = "map-link" target="_blank"></a>
-  
+      <pre>
+      <code>// Get the parent element
+let parentElement = document.getElementById('parentElement')
+// Get the parent's first child
+let theFirstChild = parentElement.firstChild
+
+// Create a new element
+let newElement = document.createElement("div")
+
+// Insert the new element before the first child
+parentElement.insertBefore(newElement, theFirstChild)</code>
+    </pre>
     <script>
       let shareData = {
         title: 'JioScon',
